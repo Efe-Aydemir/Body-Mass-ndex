@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+html {
+    user-select: none;
+    font-family: 'Cantarell', sans-serif;
+} 
+
+body {
+    background-color: teal;
+}
+
+h1 {
+    
+    font-size: 3rem;
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#main{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(to bottom, rgb(46, 46, 46) 50%, white 50%);
+color: white;
+margin: 30px;
+margin-top: 100px;
+border-radius: 30px;
+}
+
+#main input {
+    width: 70%;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    border-radius:30px ;
+}
+
+#main input:active {
+border: none;
+outline: none;
+}
+
+#main label {
+    font-size: 2em;
+}
+
+#w_la, #weight {
+    color: black;
+}
+
+#main #weight {
+    background-color: black;
+    color: white;
+}
+
+#result_btn, #back_btn {
+    padding: 20px;
+    width: 50%;
+    font-size: 2em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    transition: all 200ms;
+}
+
+#result_btn:active, #back_btn:active {
+    background-color: white;
+    color: black;
+}
+
+#btns {
+    text-align: center;
+}
